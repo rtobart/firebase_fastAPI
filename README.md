@@ -12,7 +12,7 @@ Para realizar este proceso:
 - Crea un nuevo proyecto 🚀
 - En el proyecto selecciona > Configuracion del proyecto > Cuentas de servicio > python 🐍
 - Selecciona "Crear nueva clave privada" 🔑
-- Agrega el archivo creado a la raiz del proyecto 📩
+- Agrega el archivo creado a la raiz del API REST 📩
 - Renombra el archivo "serviceAccountKey.json" 📄
 
 con esto ya podras correr tu API REST con el comando 🖥
