@@ -28,8 +28,9 @@ la ruta http://127.0.0.1:8000/addUser podremos agregar usuarios por metodo POST
 
 la rura http://127.0.0.1:8000/ nos traera de vuelta la lista completa de usuarios que tengamos registrados 
   
-Esta esta integracion entre plataformas fue realizada por @rtobart, autor de este repositorio 
+Esta esta integracion entre plataformas fue realizada por [@rtobart](https://github.com/rtobart), autor de este repositorio
+== 
 
 
 
-Este template pertenece a @rtobart
+Este template pertenece a [@rtobart](https://github.com/rtobart)
