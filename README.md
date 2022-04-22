@@ -19,3 +19,5 @@ con esto ya podras correr tu API REST con el comando 🖥
 ```
 uvicorn main:app --reload 
 ```
+
+Este template pertenece a @rtobart
