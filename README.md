@@ -29,8 +29,9 @@ la ruta http://127.0.0.1:8000/addUser podremos agregar usuarios por metodo POST
 la rura http://127.0.0.1:8000/ nos traera de vuelta la lista completa de usuarios que tengamos registrados 
   
 Esta esta integracion entre plataformas fue realizada por [@rtobart](https://github.com/rtobart), autor de este repositorio
-== 
 
-
+para mayor informacion revisa la documentacion oficial de estas tecnologias 
+[Firebase documentation](https://firebase.google.com/docs?authuser=0&hl=es)
+[FastAPI documentation](https://fastapi.tiangolo.com/tutorial/)
 
 Este template pertenece a [@rtobart](https://github.com/rtobart)
