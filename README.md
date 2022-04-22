@@ -1,5 +1,8 @@
 # firebase_fastAPI 🚀
 ## API rest con FastAPI(Python) a Firestore de Firebase(google) 🌎
+```
+git clone https://github.com/rtobart/firebase_fastAPI.git
+```
 
 ### Primero instalaras las dependencias necesarias 🖥
 ```
