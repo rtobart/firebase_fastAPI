@@ -1,7 +1,6 @@
 # firebase_fastAPI 🚀
 Antes de partir te recomiendo que trabajes con entornos virtuales como:
--[ENV](https://pypi.org/project/pipenv/)
--[VENV](https://docs.python.org/3/library/venv.html)
+- [VENV](https://docs.python.org/3/library/venv.html)
 ## API rest con FastAPI(Python) a Firestore de Firebase(google) 🌎
 ```
 git clone https://github.com/rtobart/firebase_fastAPI.git
