@@ -32,8 +32,10 @@ la ruta http://127.0.0.1:8000/docs nos renderizara la documentacion interactiva 
 la ruta http://127.0.0.1:8000/addUser podremos agregar usuarios por metodo POST 
   la estructura de datos del usuarios esta definida en el archivo 'models.py' en la raiz del API
 
-la rura http://127.0.0.1:8000/ nos traera de vuelta la lista completa de usuarios que tengamos registrados 
-  
+la ruta http://127.0.0.1:8000/ nos traera de vuelta la lista completa de usuarios que tengamos registrados 
+
+la ruta http://127.0.0.1:8000/delUser podemos eliminar usuarios por metodo DELETE
+  requiere id de usuario a eliminar
 Esta esta integracion entre plataformas fue realizada por [@rtobart](https://github.com/rtobart), autor de este repositorio
 
 para mayor informacion revisa la documentacion oficial de estas tecnologias 

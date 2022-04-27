@@ -1,5 +1,5 @@
 from conexion import db
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from models import User
 
 # llamamos a la coleccion users de la db(instancia de firestore)
@@ -47,5 +47,6 @@ async def delUser(id): #pasamos por parametro id de usuario
     if user.exists:        
         users.document(f'{id}').delete()      
     else:
-        print(f'Usuario con id {id} no existe')    
+        raise HTTPException(status_code=404, detail="User not found") # levantamos excepcion en caso de no existir user con id provisto 
+        
     return {'status' : 200} #retornamos una mensaje de exito
