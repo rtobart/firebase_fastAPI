@@ -36,3 +36,16 @@ async def addUser(user: User): #pasamos por parametro el modelo de usuario {name
     })
     return {'status' : 200} #retornamos una mensaje de exito
 
+
+
+# definimos el comportamiento de la ruta http://127.0.0.1:8000/delUser con metodo DELETE
+@app.delete("/delUser")
+async def delUser(id): #pasamos por parametro id de usuario 
+    # se elimina usuario en coleccion que posea id
+    userRef=db.collection(u'users').document(id)
+    user= userRef.get()
+    if user.exists:        
+        users.document(f'{id}').delete()      
+    else:
+        print(f'Usuario con id {id} no existe')    
+    return {'status' : 200} #retornamos una mensaje de exito

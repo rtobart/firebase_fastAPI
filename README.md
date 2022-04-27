@@ -19,6 +19,7 @@ Para realizar este proceso:
 - Selecciona "Crear nueva clave privada" 🔑
 - Agrega el archivo creado a la raiz del API REST 📩
 - Renombra el archivo "serviceAccountKey.json" 📄
+- Crea firestore database en modo produccion o pruebas
 
 con esto ya podras correr tu API REST con el comando 🖥
 ```
