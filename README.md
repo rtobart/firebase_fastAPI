@@ -13,13 +13,15 @@ pip install -r requirement.txt
 
 ### Para el uso de esta api rest, debera descargar las credenciales de firebase desde su consola de Firebase 🤓
 Para realizar este proceso:
+
 - Ingresa a [Firebase](https://console.firebase.google.com/) 🌎
 - Crea un nuevo proyecto 🚀
+- Crea firestore database en modo produccion o pruebas
 - En el proyecto selecciona > Configuracion del proyecto > Cuentas de servicio > python 🐍
 - Selecciona "Crear nueva clave privada" 🔑
 - Agrega el archivo creado a la raiz del API REST 📩
 - Renombra el archivo "serviceAccountKey.json" 📄
-- Crea firestore database en modo produccion o pruebas
+
 
 con esto ya podras correr tu API REST con el comando 🖥
 ```
