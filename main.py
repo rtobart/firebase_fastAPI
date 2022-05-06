@@ -51,10 +51,10 @@ async def delUser(id): #pasamos por parametro id de usuario
         
     return {'status' : 200} #retornamos una mensaje de exito
 
-@app.put("/nuevaRuta")
+@app.put("/modName")
 async def modUser(id, name): 
     userMod = users.document(id)
     userMod.set({
         u'nombre': name
     })
-    return {'status' : 200} #retornamos una mensaje de exito
+    return {'status' : 200} 

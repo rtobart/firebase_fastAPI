@@ -38,6 +38,9 @@ la ruta http://127.0.0.1:8000/ nos traera de vuelta la lista completa de usuario
 
 la ruta http://127.0.0.1:8000/delUser podemos eliminar usuarios por metodo DELETE
   requiere id de usuario a eliminar
+
+la ruta http://127.0.0.1:8000/modName podemos modificar el nombre del usuario Requiere id del usuario
+
 Esta esta integracion entre plataformas fue realizada por [@rtobart](https://github.com/rtobart), autor de este repositorio
 
 para mayor informacion revisa la documentacion oficial de estas tecnologias 
