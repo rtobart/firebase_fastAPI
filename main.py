@@ -50,3 +50,11 @@ async def delUser(id): #pasamos por parametro id de usuario
         raise HTTPException(status_code=404, detail="User not found") # levantamos excepcion en caso de no existir user con id provisto 
         
     return {'status' : 200} #retornamos una mensaje de exito
+
+@app.put("/nuevaRuta")
+async def modUser(id, name): 
+    userMod = users.document(id)
+    userMod.set({
+        u'nombre': name
+    })
+    return {'status' : 200} #retornamos una mensaje de exito
